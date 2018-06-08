@@ -157,8 +157,8 @@ function createPrettierComponent(Oni, onClick) {
         justifyContent: "center",
         paddingLeft: "8px",
         paddingRight: "8px",
-        color: "white",
-        backgroundColor: foreground,
+        color: foreground,
+        backgroundColor: background,
     }
 
     const prettierIcon = (type = "magic") =>
